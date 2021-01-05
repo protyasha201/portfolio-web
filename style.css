@@ -113,18 +113,38 @@ a:hover{
     background-image: url("images/developer-portfolio/exp-bg.png");
     background-repeat: no-repeat;
     background-position: left;
-    height: 500px;
+    height: 600px;
 }
 .last-part .container{
     padding-left: 3%;
-    border-left: 5px solid tomato;
+    border-radius: 5px;
+    height: 70%;
+    border-left: 5px solid;
+    border-image: linear-gradient(180deg,white,tomato);
     box-shadow: 1px 1px 5px black;
+    border-image-slice: 1;
+    background-color: white;
 }
 .container2{
     margin-left: 5%;
     width: 40%;
+    height: 70%;
     float: left;
-    border-left: rgb(65, 65, 161) solid 5px;
+    border-left: solid 5px;
     padding-left: 3%;
+    border-left: 5px solid;
+    border-radius: 5px;
     box-shadow: 1px 1px 5px black;
+    border-image: linear-gradient(180deg,white,steelblue);
+    border-image-slice: 1;
+}
+.foot{
+    background-color: slateblue;
+    position: fixed;
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
+}
+.foot p{
+    text-align: center;
 }
