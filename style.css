@@ -42,12 +42,9 @@ h3{
     right: 0%;
     top: 0%;
 }
-.first-sec{
-    margin: 30px;
-}
 .buttons{
     border-radius: 5px;
-    background-color: rgb(233, 95, 44);
+    background-color: rgb(80, 82, 185);
     color: white;
     border: 1px solid black;
     font-size: 20px;
@@ -61,4 +58,14 @@ h3{
 }
 a:hover{
     color: black;
+}
+.container{
+    top: 20px;
+    position: relative;
+    /* left: 40px; */
+}
+.top-banner{
+    background-image: url("images/developer-portfolio/top-banner.png");
+    background-repeat: repeat;
+    margin-top: 70px;
 }
