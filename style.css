@@ -15,6 +15,7 @@ body{
 }
 .name-design{
     color: orange;
+    font-weight: bolder;
 }
 a{
     cursor: pointer;
@@ -23,9 +24,9 @@ a{
     color: white;
 }
 p{
-    font-weight: bold;
     font-size: 19px;
     text-align: justify;
+    font-weight: bolder;
 }
 h1{
     font-size: 20px;
@@ -33,9 +34,18 @@ h1{
 h2{
     position: relative;
     font-size: 25px;
+    font-weight: bolder;
 }
 h3{
     font-size: 25px;
+}
+h4{
+    text-align: center;
+    font-size: 25px;
+}
+h5{
+    font-size: 30px;
+    font-weight: bolder;
 }
 .image{
     width: 45%;
@@ -64,7 +74,6 @@ a:hover{
 .container{
     margin-left: 5%;
     width: 40%;
-    /* border: black 1px solid; */
     float: left;
 }
 .container img{
@@ -93,9 +102,29 @@ a:hover{
     padding-left: 20%;
 }
 .middle-banner .container p{
-    padding-top: 5px;
-    padding-left: 20%;
+    text-align: justify;
+    line-height: 30px;
 }
 .middle-banner .container button{
     margin-left: 30%;
+}
+.last-part{
+    margin-top: 5%;
+    background-image: url("images/developer-portfolio/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 500px;
+}
+.last-part .container{
+    padding-left: 3%;
+    border-left: 5px solid tomato;
+    box-shadow: 1px 1px 5px black;
+}
+.container2{
+    margin-left: 5%;
+    width: 40%;
+    float: left;
+    border-left: rgb(65, 65, 161) solid 5px;
+    padding-left: 3%;
+    box-shadow: 1px 1px 5px black;
 }
