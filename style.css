@@ -1,5 +1,6 @@
 body{
     font-family: 'Montserrat', sans-serif;
+    margin: 0;
 }
 #navbar{
     text-align: center;
@@ -10,6 +11,7 @@ body{
     width: 100%;
     color: white;
     background-color: blueviolet;
+    z-index: 1;
 }
 .name-design{
     color: orange;
@@ -23,13 +25,13 @@ a{
 p{
     font-weight: bold;
     font-size: 19px;
+    text-align: justify;
 }
 h1{
     font-size: 20px;
 }
 h2{
     position: relative;
-    top: 40px;
     font-size: 25px;
 }
 h3{
@@ -44,7 +46,7 @@ h3{
 }
 .buttons{
     border-radius: 5px;
-    background-color: rgb(80, 82, 185);
+    background-image: linear-gradient( 80deg, tomato,black);
     color: white;
     border: 1px solid black;
     font-size: 20px;
@@ -52,21 +54,47 @@ h3{
     box-shadow: 1px 1px 5px black;
 }
 .buttons:hover{
-    background-color: white;
-    color: black;
+    background-image: linear-gradient(80deg, white,tomato);
     font-size: 21px;
 }
 a:hover{
     color: black;
+    font-weight: bolder;
 }
 .container{
-    top: 20px;
-    position: relative;
-    /* left: 40px; */
+    margin-left: 5%;
+    width: 40%;
+    /* border: black 1px solid; */
+    float: left;
+}
+.container img{
+    width: 100%;
+    margin-left: 5%;
 }
 .top-banner{
     background-image: url("images/developer-portfolio/top-banner.png");
-    background-repeat: repeat;
-    margin-top: 70px;
-    margin-left: 50px;
+    height: 550px;
+    margin-top: 80px;
+    background-repeat: no-repeat;
+    /* border: solid 1px black; */
+}
+.middle-banner{
+    margin-top: 2%;
+    height: 650px;
+    /* border: 1px black solid; */
+}
+.middle-banner .container{
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.middle-banner .container h3{
+    padding-top: 30px;
+    padding-left: 20%;
+}
+.middle-banner .container p{
+    padding-top: 30px;
+    padding-left: 20%;
+}
+.middle-banner .container button{
+    margin-left: 30%;
 }
