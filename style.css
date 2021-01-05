@@ -15,13 +15,25 @@ body{
     color: orange;
 }
 a{
+    cursor: pointer;
     font-size: 20px;
     text-decoration: none;
-    color: blueviolet;
+    color: white;
 }
 p{
     font-weight: bold;
-    font-size: 18px;
+    font-size: 19px;
+}
+h1{
+    font-size: 20px;
+}
+h2{
+    position: relative;
+    top: 40px;
+    font-size: 25px;
+}
+h3{
+    font-size: 25px;
 }
 .image{
     width: 45%;
@@ -35,7 +47,7 @@ p{
 }
 .buttons{
     border-radius: 5px;
-    background-color: orangered;
+    background-color: rgb(233, 95, 44);
     color: white;
     border: 1px solid black;
     font-size: 20px;
@@ -46,4 +58,7 @@ p{
     background-color: white;
     color: black;
     font-size: 21px;
+}
+a:hover{
+    color: black;
 }
