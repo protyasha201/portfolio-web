@@ -76,12 +76,13 @@ a:hover{
     height: 550px;
     margin-top: 80px;
     background-repeat: no-repeat;
-    /* border: solid 1px black; */
 }
 .middle-banner{
     margin-top: 2%;
     height: 650px;
-    /* border: 1px black solid; */
+    background-image: url(images/developer-portfolio/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
 .middle-banner .container{
     margin-left: 5%;
@@ -92,7 +93,7 @@ a:hover{
     padding-left: 20%;
 }
 .middle-banner .container p{
-    padding-top: 30px;
+    padding-top: 5px;
     padding-left: 20%;
 }
 .middle-banner .container button{
