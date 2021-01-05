@@ -1,0 +1,15 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.name-design{
+    color: orange;
+}
+a{
+    font-size: 20px;
+    text-decoration: none;
+    color: blueviolet;
+}
+p{
+    font-weight: bold;
+    font-size: 18px;
+}
